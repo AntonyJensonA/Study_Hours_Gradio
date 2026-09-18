@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 import os
 
-model = joblib.load("Student_Std_Hrs.pkl")
+model = joblib.load("logistic_regression_student_study_model.pkl")
 
 
 def predict_result(study_hours, attendance):
